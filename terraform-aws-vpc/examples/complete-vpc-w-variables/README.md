@@ -1,6 +1,6 @@
-# Complete VPC with variables
+# terraform-aws-vpc example: complete VPC with variables
 
-complete-vpc with variables.
+complete-vpc with variables based on terraform-aws-vpc/examples/complete-vpc/ https://github.com/terraform-aws-modules/terraform-aws-vpc/tree/master/examples/complete-vpc .
 
 Configuration in this directory use [complete-vpc] with variables as much as possible.
 
