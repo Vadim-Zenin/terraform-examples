@@ -1,5 +1,7 @@
 # Basic Two-Tier AWS Architecture
 
+Initial 1 tier base example location is terraform-provider-aws/examples/two-tier/ https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/two-tier .
+
 This provides a template for running a simple two-tier architecture on Amazon
 Web services. The premise is that you have stateless app servers running behind
 an ELB serving traffic.
@@ -26,12 +28,13 @@ https://www.terraform.io/docs/providers/aws/index.html
 
 Run with a command like this:
 
+```bash
+$ terraform init
+$ terraform plan
+$ terraform apply
+$ terraform destroy
 ```
-terraform init
-terraform apply
-terraform destroy
-```
-# Requirements
+## Requirements
 
 AWS account with AWS access and AWS secret keys and administrative permissions on AWS region.
 

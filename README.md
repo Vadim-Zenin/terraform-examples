@@ -11,3 +11,7 @@ $ terraform apply
 ```
 
  Run `terraform destroy` when you finished.
+
+## Requirements
+
+AWS account with AWS access and AWS secret keys and administrative permissions on AWS region.
